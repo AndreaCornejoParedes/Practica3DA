@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="index.html">SILABO</a></li>
+                <li><a href="#">DIAPOSITIVAS</a></li>
+                <li><a href="#">PRACTICAS</a></li>
+            </ul>
+        </nav> 
+            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Desarrollo de Aplicaciones</h1>
+            <p>
+                El curso prepara al estudiante en la aplicación de los conceptos, métodos y técnicas para el Desarrollo de Aplicaciones Web
+
+            </p>
+            <div>
+                <button class="btn-principal" type ="submit">Saber mas</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="img/caratula2.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Se desarrollan problemas de aplicación en ingeniería y se hace uso de software especializado</h2>
+                <p>
+                    Algunas de las competencias que tenemos en cuenta son las siguientes
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-road"></i>
+                    <p>
+                        Propone y evalúa alternativas y tecnologías de solución, y selecciona la más apropiada, haciendo uso de las normas y estándares vigentes.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+               
+                    <p>
+                        Presenta y describe la solución utilizando metodologías apropiadas de desarrollo de software.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-trophy"></i>
+                   
+                    <p>
+                        Se desempeña como líder o miembro activo de un equipo de trabajo aportando con iniciativa para alcanzar las metas y objetivos propuestos.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            UCSM &copy;Todos los derechos reservados 2021
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
