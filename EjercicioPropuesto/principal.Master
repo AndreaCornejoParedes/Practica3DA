@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="principal.master.cs" Inherits="EjercicioPropuesto.principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Productos</title>
+    <link href="~/sass/styles.css" rel="stylesheet" type="text/css" media="screen" runat="server" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="navbar">
+        <h3 class="Brand">
+            Pedidos
+        </h3>
+    </nav>
+    <form id="form1" class="content" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        <span>
+            Copyright © 2021 UCSM
+        </span>
+    </footer>
+</body>
+</html>

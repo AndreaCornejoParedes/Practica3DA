@@ -1,0 +1,38 @@
+﻿/* Importaciones*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300;400;800&display=swap');
+@import "app";
+/* Variables  */
+$bgcolor: #ffffff;
+$bgboxes: #6153CC;
+$letters: #ffffff;
+$letters2: #000000;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Azeret Mono', monospace;
+    width: 100%;
+    height: 100vh;
+    background-color: $bgcolor;
+    color: $letters;
+}
+
+.navbar {
+    text-transform: uppercase;
+    height: 10%;
+    background: $bgboxes;
+    display: flex;
+    align-items: center;
+}
+
+.Brand {
+    margin-left: 15px;
+}
+
+.content {
+    width: 100%;
+}
+
